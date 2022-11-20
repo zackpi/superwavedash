@@ -10,7 +10,7 @@ mmw=$docs'/MMW'
 echo $docs
 echo $desk
 
-stage=$desk'/stages/GrHr.dat'
+stage=$desk'/stages/GrNBa.dat'
 vanilla=$docs'/roots/vanilla.iso'
 dirty=$docs'/roots/dirty.iso'
 
