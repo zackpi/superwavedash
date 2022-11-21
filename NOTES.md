@@ -24,9 +24,30 @@ Now it boots fine and I have a working script to launch the stage for dev!
 
 ### 11/20/2022
 I did some research into the other tools available in the space and watched several video tutorials for stage and character modding. Some things I learned:
-* mexTool is very good for constructing a full-game modpack, and worth investigating further
+* mexTool is very good for constructing a full-game modpack, and worth investigating - [ ]urther
 * Blender can be used to edit models (import as DAE, then export as FBX) which can be much better than using HSDRAW
 * HSDRAW is very cumbersome to use because a lot of the stuff in the file-hierarchy are unintelligible. Key points of interest are `map_head > ModelGroups` and `coll_data` since those contain the model and collision info for the stage.
 
 I successfully made a Battlefield mod where the two side platforms' models and collision were removed.
 Then I was able to boot the game using the AssetTest script I wrote the other day and indeed the platforms were gone!
+
+### 11/21/2022
+I want to be able to make stages programmatically. But first, I want to learn more about making stages by hand.
+So today I'm going to try making several different basic stage mods, each one teaching a new technique:
+- [x] remove platforms
+- [ ] edit platform shape
+- [ ] edit platform material
+- [ ] edit platform animation
+- [ ] add a custom platform (model, coll, mat, & anim)
+- [ ] move spawn platform in VS
+- [ ] move spawn point in TT and RTTF
+- [ ] remove a target in TT
+- [ ] move a target in TT
+- [ ] add a target in TT
+- [ ] move finish line in RTTF
+- [ ] move finish portal in RTTF
+- [ ] add an item
+- [ ] add an enemy
+
+Some of these are harder than others...
+
